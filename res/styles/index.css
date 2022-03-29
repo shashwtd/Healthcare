@@ -1,8 +1,8 @@
 :root {
-    /* --bg-main: #d8ecd9; */
-    --header: #c1e0c2;
+    --bg-main: #323437;
+    --header: #4c4e52;
     --white: #5b6b75;
-    --x: #d6b8b8;
+    --title: #818080;
 }
 
 html,
@@ -70,12 +70,13 @@ header {
 
 .hexa-line {
     position: absolute;
-    top: calc(13% + 480px);
-    left: 0px;
+    top: 0;
+    left: 0;
     width: 100vw;
-    height: 0.35em;
-    background-color: var(--white);
+    height: calc(13% + 66.7vh);
+    /* background-color: var(--white); */
     z-index: 8;
+    border-bottom: 0.7vh solid var(--header);
 }
 
 /* Hexagon using clip-path */
@@ -83,7 +84,7 @@ header {
     position: relative;
     width: 12.5em;
     height: 13.75em;
-    background: var(--white);
+    background: var(--header);
     margin: 0px -0.4em -0.4em 0px;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     z-index: 10;
@@ -100,11 +101,21 @@ header {
     margin: 0px -5px -5px 0px;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     z-index: 10;
+    transition: ease-in-out 200ms;
 }
 
 .hexxagon:hover {
     transition: 0s;
-    background: radial-gradient(circle, rgba(78, 81, 215, 1) 0%, rgba(40, 40, 52, 1) 100%);
+    background: #44444444;
+}
+
+.hexxagon img {
+    position: absolute;
+    width: 50%;
+    filter: grayscale(1);
+    height: auto;
+    top: 25%;
+    left: 25%;
 }
 
 .hex-row {
@@ -115,9 +126,23 @@ header {
 
 .hex-row:first-child {
     margin-top: 0px;
-    padding-left: 198.5px;
+    padding-left: 196px;
 }
 
 .hex-row:nth-child(even) {
     padding-left: 98.75px;
+}
+
+.hl-heading {
+    position: absolute;
+    left: 10%;
+    bottom: 0%;
+    font-size: 3vw;
+    width: fit-content;
+    font-family: 'Play', sans-serif;
+    color: var(--title);
+}
+
+.hl-heading:focus {
+    outline: none;
 }

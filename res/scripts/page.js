@@ -148,7 +148,6 @@ function draw(first) {
         if (person.mate) {
             let mate = person.mate;
             if (mate.x != undefined) {
-                context.globalAlpha = 0.2;
                 context.beginPath();
                 context.moveTo(person.x, person.y);
                 context.lineTo(mate.x, mate.y);
