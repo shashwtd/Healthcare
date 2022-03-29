@@ -20,14 +20,6 @@ body {
     
 }
 
-header {
-    display: block;
-    width: 100vw;
-    height: 9%;
-    overflow-x: hidden;
-    background: var(--header);
-}
-
 ::-webkit-scrollbar {
     width: 0px;
 }
@@ -118,6 +110,7 @@ header {
 .hexxagon:hover {
     transition: 0s;
     background: #44444444;
+    cursor: pointer;
 }
 
 .hexxagon .hex-icon svg {
@@ -155,10 +148,11 @@ header {
     position: absolute;
     left: 10%;
     bottom: 0%;
-    font-size: 3vw;
+    font-size: 3.5em;
     width: fit-content;
     font-family: 'Play', sans-serif;
     color: var(--title);
+    user-select: none;
 }
 
 .hl-heading:focus {
