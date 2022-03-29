@@ -109,13 +109,20 @@ header {
     background: #44444444;
 }
 
-.hexxagon img {
+.hexxagon .hex-icon svg {
     position: absolute;
-    width: 50%;
-    filter: grayscale(1);
+    width: 40%;
     height: auto;
+    top: 30%;
+    left: 30%;
+    transition: ease-in-out 200ms;
+    /* filter: grayscale(1); */
+}
+
+.hexxagon:hover .hex-icon svg {
+    width: 50%;
+    left:25%;
     top: 25%;
-    left: 25%;
 }
 
 .hex-row {
