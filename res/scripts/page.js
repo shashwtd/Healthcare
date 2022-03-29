@@ -126,8 +126,8 @@ function update(secondsPassed) {
 // Drawing the canvas
 function draw(first) {
     context.clearRect(0, 0, canvas.width, canvas.height);
-    // context.fillStyle = base_color;
-    // context.fillRect(0, 0, w, h);
+    context.fillStyle = base_color;
+    context.fillRect(0, 0, w, h);
 
     for (let id in society) {
         let person = society[id];
