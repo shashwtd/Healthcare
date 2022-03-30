@@ -129,6 +129,24 @@ body {
     top: 25%;
 }
 
+.hex-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hex-tooltip {
+    position: absolute;
+    z-index: 10;
+    right: 100%;
+    top: 0;
+    width: 100px;
+    height: 200px;
+    background-color: var(--title);
+}
+
 .hex-row {
     position: relative;
     display: flex;
@@ -141,7 +159,7 @@ body {
 }
 
 .hex-row:nth-child(even) {
-    padding-left: 98.75px;
+    padding-left: 99px;
 }
 
 .hl-heading {
