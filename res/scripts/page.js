@@ -54,6 +54,21 @@ function topFunction() {
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+var getJSON = function (url, callback) {
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', url, true);
+    xhr.responseType = 'json';
+    xhr.onload = function () {
+        var status = xhr.status;
+        if (status === 200) {
+            callback(null, xhr.response);
+        } else {
+            callback(status, xhr.response);
+        }
+    };
+    xhr.send();
+};
+
 function set_tt(title, description) {
     tt_title.classList.remove('fade-anim');
     tt_description.classList.remove('fade-anim');
@@ -75,7 +90,7 @@ function abandon_tt() {
 
 // Initializing the canvas
 function init() {
-
+    generate_news();
     canvas = document.getElementById('bg-canvas');
     base_color = canvas.getAttribute('base')
     conn_color = canvas.getAttribute('line');
@@ -211,4 +226,56 @@ function draw(first) {
             }
         }
     }
+}
+
+function generate_news() {
+    getJSON('./res/scripts/data.json',
+        function (err, data) {
+            if (err !== null) {
+                console.error('Something went wrong: ' + err);
+            } else {
+                console.log("Fetched news articles successfully!");
+                let articles = data.articles;
+                let main = document.querySelector('#quiz');
+                console.log("Fetched news articles successfully!");
+
+                for (let index = 0; index < 10; index++) {
+                    let article = articles[Math.floor(Math.random() * 39)];
+                    console.log(article);
+                    let url = article.url;
+                    let title = article.title;
+                    let description = article.description;
+                    let time = article.publishedAt;
+
+                    let news = document.createElement('div');
+                    news.className = 'news';
+                    let news_title = document.createElement('a');
+                    news_title.className = 'news-title';
+                    let news_url = document.createElement('a');
+                    news_url.className = 'news-url';
+                    let news_date = document.createElement('div');
+                    news_date.className = 'news-date';
+                    let news_description = document.createElement('i');
+                    news_description.className = 'news-description';
+                    let news_section = document.createElement('div');
+                    news_section.className = 'news-section';
+
+                    news_date.innerText = time;
+                    news_title.href = url;
+                    news_url.href = url;
+                    news_url.innerText = url;
+                    news_title.innerText = title;
+                    news_description.innerText = description;
+
+                    news_section.appendChild(news_date);
+                    news_section.appendChild(news_url);
+                    news_section.appendChild(news_title);
+                    news_section.appendChild(news_description);
+                    news.appendChild(news_section);
+
+                    main.appendChild(news);
+                }
+            }
+        });
+
 }

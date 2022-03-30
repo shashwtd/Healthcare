@@ -1,0 +1,471 @@
+{
+    "articles": [{
+        "source": {
+            "id": null,
+            "name": "New York Times"
+        },
+        "author": "Paul Krugman",
+        "title": "China’s Xin Jin Ping Can’t Invent His Own Reality",
+        "description": "Covid is becoming China’s equivalent of Ukraine.",
+        "url": "https://www.nytimes.com/2022/03/17/opinion/china-russia-xi-jin-ping.html",
+        "urlToImage": "https://static01.nyt.com/images/2022/03/17/opinion/17krugman1/17krugman1-facebookJumbo.jpg",
+        "publishedAt": "2022-03-17",
+        "content": "Second, vaccination rates among Chinas elderly the most vulnerable group have lagged. This may in part be because disinformation about mRNA technology has not only discouraged people from taking the … [+1375 chars]"
+    }, {
+        "source": {
+            "id": null,
+            "name": "New York Times"
+        },
+        "author": "Paul Krugman",
+        "title": "Another Dictator Is Having a Bad Year",
+        "description": "Covid is becoming China’s equivalent of Ukraine.",
+        "url": "https://www.nytimes.com/2022/03/17/opinion/another-dictator-is-having-a-bad-year.html",
+        "urlToImage": "https://static01.nyt.com/images/2022/03/17/opinion/17krugman1/17krugman1-facebookJumbo.jpg",
+        "publishedAt": "2022-03-17",
+        "content": "Second, vaccination rates among Chinas elderly the most vulnerable group have lagged. This may in part be because disinformation about mRNA technology has not only discouraged people from taking the … [+1375 chars]"
+    }, {
+        "source": {
+            "id": null,
+            "name": "New York Times"
+        },
+        "author": "The New York Times",
+        "title": "Have You Suffered From Long Covid?",
+        "description": "Tell us about the things that helped.",
+        "url": "https://www.nytimes.com/2022/03/23/nyregion/have-you-suffered-from-long-covid.html",
+        "urlToImage": "https://static01.nyt.com/images/2022/03/23/us/23virus-newsletter-long-covid-B/23virus-newsletter-long-covid-B-facebookJumbo.jpg",
+        "publishedAt": "2022-03-23",
+        "content": "Millions of people continue to suffer from long Covid the constellation of symptoms that can linger months after an infection. The chronic illness can include feelings of exhaustion, cognitive proble… [+705 chars]"
+    }, {
+        "source": {
+            "id": null,
+            "name": "New York Times"
+        },
+        "author": "Sabrina Tavernise, Rachelle Bonja, Kaitlin Roberts, Michael Simon Johnson, Marc Georges, Lisa Chow, Dan Powell, Marion Lozano, Corey Schreppel and Chris Wood",
+        "title": "Could the U.S. See Another Covid Wave?",
+        "description": "Cases are increasing in China and Europe. Is the United States ready for another surge?",
+        "url": "https://www.nytimes.com/2022/03/21/podcasts/the-daily/covid-pandemic-ba2-omicron.html",
+        "urlToImage": "https://static01.nyt.com/images/2022/03/21/multimedia/21Daily-Covid-Update/21Daily-Covid-Update-facebookJumbo.jpg",
+        "publishedAt": "2022-03-21",
+        "content": "Apoorva Mandavilli contributed reporting.\r\nThe Daily is made by Lisa Tobin, Rachel Quester, Lynsea Garrison, Clare Toeniskoetter, Paige Cowett, Michael Simon Johnson, Brad Fisher, Larissa Anderson, C… [+753 chars]"
+    }, {
+        "source": {
+            "id": "cnn",
+            "name": "CNN"
+        },
+        "author": "Kathryn Vasel",
+        "title": "Covid transformed these workers' careers",
+        "description": "The pandemic thrust the working world into a new reality in March 2020 as offices closed and millions of people were forced to learn how to do their jobs from home.",
+        "url": "https://www.cnn.com/2022/03/18/success/pandemic-work-from-home-career-changes/index.html",
+        "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220316194116-restricted-ryan-bernsten-rashmi-bhankhede-carlos-ortiz-split-super-tease.jpg",
+        "publishedAt": "2022-03-18",
+        "content": "If they aren't going to validate that I enjoy working from home, that I am better at home, and I enjoy my lifestyle at home, I need to find a job that will,\"\r\nRyan Bernsten"
+    }, {
+        "source": {
+            "id": "cnn",
+            "name": "CNN"
+        },
+        "author": "Jacqueline Howard, CNN",
+        "title": "Ordering is underway for Covid-19 test-to-treat program's antiviral drugs, White House says",
+        "description": "Antiviral medication orders for the White House's Covid-19 test-to-treat program are underway. More than 1,000 in-pharmacy clinics across the United States registered Monday to participate in the initiative and to order shipments of Covid-19 antiviral medicat…",
+        "url": "https://www.cnn.com/2022/03/07/health/covid-test-to-treat-medication-orders-white-house/index.html",
+        "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/211222152214-02-covid-test-holidays-super-tease.jpg",
+        "publishedAt": "2022-03-08",
+        "content": "(CNN)Antiviral medication orders for the White House's Covid-19 test-to-treat program are underway. More than 1,000 in-pharmacy clinics across the United States registered Monday to participate in th… [+4744 chars]"
+    }, {
+        "source": {
+            "id": "engadget",
+            "name": "Engadget"
+        },
+        "author": "Steve Dent",
+        "title": "US Surgeon General orders tech companies to reveal sources of COVID-19 misinformation",
+        "description": "President Biden's surgeon general Dr. Vivek Murthy has formally called on tech companies to provide information on sources and the scale of COVID-19 misinformation, The Washington Post has reported. \"This is about protecting the nation’s health,\" he told The …",
+        "url": "https://www.engadget.com/us-surgeon-general-orders-tech-companies-to-reveal-sources-of-covid-19-misinformation-050540191.html",
+        "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-08/a6250ad0-004d-11ec-bf21-a29998f28b50",
+        "publishedAt": "2022-03-04",
+        "content": "President Biden's surgeon general Dr. Vivek Murthy has formally called on tech companies to provide information on sources and the scale of COVID-19 misinformation, The Washington Post has reported. … [+1728 chars]"
+    }, {
+        "source": {
+            "id": "the-verge",
+            "name": "The Verge"
+        },
+        "author": "Nicole Wetsman",
+        "title": "The CDC is still trying to fix its data problem",
+        "description": "The CDC’s Data Modernization Initiative will try to connect state and local data systems to the federal level, Politico reported. The US has struggled for two years with data issues around COVID-19.",
+        "url": "https://www.theverge.com/2022/3/22/22990852/cdc-public-health-data-covid",
+        "urlToImage": "https://cdn.vox-cdn.com/thumbor/yaQkdiaorKy6OyPVWffzpYACar4=/0x287:4000x2381/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/23336796/1237552630.jpg",
+        "publishedAt": "2022-03-22",
+        "content": "Politico reports that the agency director wants to remedy gaps in public health data\r\nTwo years into the COVID-19 pandemic, the Centers for Disease Control and Prevention is still trying to improve t… [+1470 chars]"
+    }, {
+        "source": {
+            "id": "bbc-news",
+            "name": "BBC News"
+        },
+        "author": "https://www.facebook.com/bbcnews",
+        "title": "China announces Shanghai Covid lockdown",
+        "description": "The financial hub will be locked down in two phases, in China's biggest city-wide lockdown yet.",
+        "url": "https://www.bbc.co.uk/news/world-asia-china-60893070",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1FEA/production/_123907180_hi074857406.jpg",
+        "publishedAt": "2022-03-27",
+        "content": "Image caption, Tests take place behind the barriers of a makeshift Covid centre in Shanghai earlier this week\r\nChina has announced its biggest city-wide lockdown since the Covid outbreak began more t… [+2599 chars]"
+    }, {
+        "source": {
+            "id": null,
+            "name": "New York Times"
+        },
+        "author": "The Editorial Board",
+        "title": "Why New York Needs a Covid Memorial",
+        "description": "New York needs a way to come together.",
+        "url": "https://www.nytimes.com/2022/03/10/opinion/covid-new-york.html",
+        "urlToImage": "https://static01.nyt.com/images/2022/03/10/opinion/10memorial-web/10memorial-web-facebookJumbo.jpg",
+        "publishedAt": "2022-03-11",
+        "content": "Building a Covid memorial in New York could take many years and will raise a flurry of complex questions about what it should look like, where it should be built, and whose story it will tell. With o… [+2441 chars]"
+    }, {
+        "source": {
+            "id": null,
+            "name": "Gizmodo.com"
+        },
+        "author": "Ed Cara",
+        "title": "Mild Covid-19 Linked to Increased Inflammation in Cells Months Later, Study Finds",
+        "description": "In new research out Monday, scientists say they’ve found evidence that our immune system appears more prone to inflammation and other metabolic changes in the aftermath of even a mild case of covid-19. More research will be needed to understand how these chan…",
+        "url": "https://gizmodo.com/mild-covid-19-linked-to-increased-inflammation-in-cells-1848651100",
+        "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/a623b5b319322a198933490dd0614b0c.jpg",
+        "publishedAt": "2022-03-15",
+        "content": "In new research out Monday, scientists say theyve found evidence that our immune system appears more prone to inflammation and other metabolic changes in the aftermath of even a mild case of covid-19… [+4059 chars]"
+    }, {
+        "source": {
+            "id": null,
+            "name": "New York Times"
+        },
+        "author": "Steven Kurutz",
+        "title": "It’s Easier to Find Covid Tests — for Now",
+        "description": "Once hard to find, at-home test kits are easily available, and you may have more than you need — for now.",
+        "url": "https://www.nytimes.com/2022/03/19/style/covid-test-kits.html",
+        "urlToImage": "https://static01.nyt.com/images/2022/03/20/fashion/20COVIDTESTS1/20COVIDTESTS1-facebookJumbo.jpg",
+        "publishedAt": "2022-03-19",
+        "content": "What if you dont use them? It was a good reminder to line the boxes up in order of expiration, said Ms. Carr, who added that at-home testing has become a natural part of planning for our family, and … [+1353 chars]"
+    }, {
+        "source": {
+            "id": null,
+            "name": "New York Times"
+        },
+        "author": "Emily Cochrane",
+        "title": "Democrats Strip Covid Aid From $1.5 Trillion Spending Package",
+        "description": "Facing disputes over how to cover the cost of the pandemic response effort, Democrats dropped it rather than jeopardize legislation that includes aid for Ukraine and other top priorities.",
+        "url": "https://www.nytimes.com/2022/03/09/us/politics/house-spending-bill.html",
+        "urlToImage": "https://static01.nyt.com/images/2022/03/09/us/politics/09dc-spending-1/09dc-spending-1-facebookJumbo.jpg",
+        "publishedAt": "2022-03-10",
+        "content": "A Times investigation found that the stockpile, an emergency medical reserve intended to guard against infectious disease and bioterrorism threats, was woefully unprepared for the pandemic, in part b… [+1923 chars]"
+    }, {
+        "source": {
+            "id": "bbc-news",
+            "name": "BBC News"
+        },
+        "author": "https://www.facebook.com/bbcnews",
+        "title": "Gretchen Whitmer: Trial due to begin in US governor kidnapping plot",
+        "description": "The four are accused of trying to kidnap Democrat Gretchen Whitmer due to her Covid rules.",
+        "url": "https://www.bbc.co.uk/news/world-us-canada-60656553",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/14350/production/_123586728_gettyimages-1229281357.jpg",
+        "publishedAt": "2022-03-08",
+        "content": "Image source, Getty Images\r\nImage caption, Michigan Governor Gretchen Whitmer\r\nThe trial of four men accused of a plot to kidnap Michigan's Democratic governor is due to begin with jury selection on … [+2102 chars]"
+    }, {
+        "source": {
+            "id": "wired",
+            "name": "Wired"
+        },
+        "author": "Grace Browne",
+        "title": "Iceland Bets on Herd Immunity",
+        "description": "The island nation's government joins several other European countries in dropping Covid restrictions—but not everyone is sure the timing’s right.",
+        "url": "https://www.wired.com/story/iceland-bets-on-herd-immunity/",
+        "urlToImage": "https://media.wired.com/photos/622100f4a2d7a96998eb6b13/191:100/w_1280,c_limit/Science_iceland_herd_immunity_GettyImages-1227732179.jpg",
+        "publishedAt": "2022-03-03",
+        "content": "Last Friday, Iceland lifted all restrictions against Covidno quarantining for the infected, no testing at the border, and no size limits on gatherings. The same day, the country broke its record for … [+3260 chars]"
+    }, {
+        "source": {
+            "id": null,
+            "name": "New York Times"
+        },
+        "author": "Roberta Smith",
+        "title": "Review: Tabboo! Paints a Valentine to New York City",
+        "description": "A show in two downtown galleries surveys the Covid cityscapes of this multitalented artist, who has become one of the town’s best painters.",
+        "url": "https://www.nytimes.com/2022/03/10/arts/design/tabboo-cityscapes-review.html",
+        "urlToImage": "https://static01.nyt.com/images/2022/03/11/arts/10tabboo-review-1/10tabboo-review-1-facebookJumbo.jpg",
+        "publishedAt": "2022-03-10",
+        "content": "Tabboo! has always painted what is within reach, including himself and his friends, in and out of drag, still lifes of the flowers, plants and tchotchkes that enliven his apartment on Avenue C and fi… [+732 chars]"
+    }, {
+        "source": {
+            "id": null,
+            "name": "New York Times"
+        },
+        "author": "The New York Times",
+        "title": "U.S. Vaccination Rates Stall as Potential Uptick Looms",
+        "description": "The U.S. booster campaign has slowed, with about half of eligible adults still not boosted as of Monday, according to the C.D.C. Here’s the latest on Covid.",
+        "url": "https://www.nytimes.com/live/2022/03/22/world/covid-19-mandates-cases-vaccine",
+        "urlToImage": "https://static01.nyt.com/images/2022/03/21/world/21virus-brief-BA2-booster/21virus-brief-BA2-booster-facebookJumbo-v2.jpg",
+        "publishedAt": "2022-03-22",
+        "content": "A Maryland resident ready to receive a Covid-19 booster shot in Hagerstown, Md., last month.Credit...Kenny Holston for The New York Times\r\nWhen the Covid vaccine first became widely available a year … [+3034 chars]"
+    }, {
+        "source": {
+            "id": null,
+            "name": "New York Times"
+        },
+        "author": "Kalyn Belsha, Melanie Asmar and Lori Higgins",
+        "title": "School Mask Mandates Have Lifted, but Covid Isn’t Over for Students and Teachers",
+        "description": "Teachers are still grappling daily with issues that Covid has left in its wake, most of which defy easy solutions.",
+        "url": "https://www.nytimes.com/2022/03/19/sunday-review/pandemic-school-education.html",
+        "urlToImage": "https://static01.nyt.com/images/2022/03/19/opinion/19belshaasmarhig1/19belshaasmarhig1-facebookJumbo.jpg",
+        "publishedAt": "2022-03-19",
+        "content": "I figure, you wouldnt ask for a hug or a high five if you really didnt need it, she said.\r\nAnd for Ms. Barros in Tulsa, the work looks like this: grading assignments on Sundays, spending her planning… [+1943 chars]"
+    }, {
+        "source": {
+            "id": "cnn",
+            "name": "CNN"
+        },
+        "author": "Brenda Goodman",
+        "title": "Omicron subvariant BA.2 is now dominant strain of Covid-19 in US, CDC says",
+        "description": "The highly contagious Omicron subvariant BA.2 is now the dominant strain of Covid-19 in the United States, causing an estimated 54.9% of all new Covid-19 infections last week, according to new data from the US Centers for Disease Control and Prevention.",
+        "url": "https://www.cnn.com/2022/03/29/health/ba-2-dominant-us/index.html",
+        "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/220216133124-home-covid-tests-mail.jpg?c=16x9&q=w_800,c_fill",
+        "publishedAt": "2022-03-29",
+        "content": "The highly contagious Omicron subvariant BA.2 is now the dominant strain of Covid-19 in the United States, causing an estimated 54.9% of all new Covid-19 infections last week, according to new data f… [+352 chars]"
+    }, {
+        "source": {
+            "id": null,
+            "name": "Lifehacker.com"
+        },
+        "author": "Sarah Showfety",
+        "title": "11 of the Most Clever Travel Hacks, According to TikTok",
+        "description": "With COVID numbers falling and travel restrictions lifting, many people who’ve been road-tripping closer to home for the past two years are ready to take to the skies again. But do we still remember how?Read more...",
+        "url": "https://lifehacker.com/11-of-the-most-clever-travel-hacks-according-to-tiktok-1848635772",
+        "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/49514ea876a100f128c092a1435b4421.jpg",
+        "publishedAt": "2022-03-11",
+        "content": "If youre on a flight without in-flight entertainment, easily turn your smartphone into a tiny, hands-free movie screen. All you need is a phone case and a barf bag (unused, of course). In this video,… [+435 chars]"
+    }, {
+        "source": {
+            "id": null,
+            "name": "New York Times"
+        },
+        "author": "Paul Krugman",
+        "title": "China’s Xin Jin Ping Can’t Invent His Own Reality",
+        "description": "Covid is becoming China’s equivalent of Ukraine.",
+        "url": "https://www.nytimes.com/2022/03/17/opinion/china-russia-xi-jin-ping.html",
+        "urlToImage": "https://static01.nyt.com/images/2022/03/17/opinion/17krugman1/17krugman1-facebookJumbo.jpg",
+        "publishedAt": "2022-03-17",
+        "content": "Second, vaccination rates among Chinas elderly the most vulnerable group have lagged. This may in part be because disinformation about mRNA technology has not only discouraged people from taking the … [+1375 chars]"
+    }, {
+        "source": {
+            "id": null,
+            "name": "New York Times"
+        },
+        "author": "Paul Krugman",
+        "title": "Another Dictator Is Having a Bad Year",
+        "description": "Covid is becoming China’s equivalent of Ukraine.",
+        "url": "https://www.nytimes.com/2022/03/17/opinion/another-dictator-is-having-a-bad-year.html",
+        "urlToImage": "https://static01.nyt.com/images/2022/03/17/opinion/17krugman1/17krugman1-facebookJumbo.jpg",
+        "publishedAt": "2022-03-17",
+        "content": "Second, vaccination rates among Chinas elderly the most vulnerable group have lagged. This may in part be because disinformation about mRNA technology has not only discouraged people from taking the … [+1375 chars]"
+    }, {
+        "source": {
+            "id": null,
+            "name": "New York Times"
+        },
+        "author": "The New York Times",
+        "title": "Have You Suffered From Long Covid?",
+        "description": "Tell us about the things that helped.",
+        "url": "https://www.nytimes.com/2022/03/23/nyregion/have-you-suffered-from-long-covid.html",
+        "urlToImage": "https://static01.nyt.com/images/2022/03/23/us/23virus-newsletter-long-covid-B/23virus-newsletter-long-covid-B-facebookJumbo.jpg",
+        "publishedAt": "2022-03-23",
+        "content": "Millions of people continue to suffer from long Covid the constellation of symptoms that can linger months after an infection. The chronic illness can include feelings of exhaustion, cognitive proble… [+705 chars]"
+    }, {
+        "source": {
+            "id": null,
+            "name": "New York Times"
+        },
+        "author": "Sabrina Tavernise, Rachelle Bonja, Kaitlin Roberts, Michael Simon Johnson, Marc Georges, Lisa Chow, Dan Powell, Marion Lozano, Corey Schreppel and Chris Wood",
+        "title": "Could the U.S. See Another Covid Wave?",
+        "description": "Cases are increasing in China and Europe. Is the United States ready for another surge?",
+        "url": "https://www.nytimes.com/2022/03/21/podcasts/the-daily/covid-pandemic-ba2-omicron.html",
+        "urlToImage": "https://static01.nyt.com/images/2022/03/21/multimedia/21Daily-Covid-Update/21Daily-Covid-Update-facebookJumbo.jpg",
+        "publishedAt": "2022-03-21",
+        "content": "Apoorva Mandavilli contributed reporting.\r\nThe Daily is made by Lisa Tobin, Rachel Quester, Lynsea Garrison, Clare Toeniskoetter, Paige Cowett, Michael Simon Johnson, Brad Fisher, Larissa Anderson, C… [+753 chars]"
+    }, {
+        "source": {
+            "id": "cnn",
+            "name": "CNN"
+        },
+        "author": "Kathryn Vasel",
+        "title": "Covid transformed these workers' careers",
+        "description": "The pandemic thrust the working world into a new reality in March 2020 as offices closed and millions of people were forced to learn how to do their jobs from home.",
+        "url": "https://www.cnn.com/2022/03/18/success/pandemic-work-from-home-career-changes/index.html",
+        "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/220316194116-restricted-ryan-bernsten-rashmi-bhankhede-carlos-ortiz-split-super-tease.jpg",
+        "publishedAt": "2022-03-18",
+        "content": "If they aren't going to validate that I enjoy working from home, that I am better at home, and I enjoy my lifestyle at home, I need to find a job that will,\"\r\nRyan Bernsten"
+    }, {
+        "source": {
+            "id": "cnn",
+            "name": "CNN"
+        },
+        "author": "Jacqueline Howard, CNN",
+        "title": "Ordering is underway for Covid-19 test-to-treat program's antiviral drugs, White House says",
+        "description": "Antiviral medication orders for the White House's Covid-19 test-to-treat program are underway. More than 1,000 in-pharmacy clinics across the United States registered Monday to participate in the initiative and to order shipments of Covid-19 antiviral medicat…",
+        "url": "https://www.cnn.com/2022/03/07/health/covid-test-to-treat-medication-orders-white-house/index.html",
+        "urlToImage": "https://cdn.cnn.com/cnnnext/dam/assets/211222152214-02-covid-test-holidays-super-tease.jpg",
+        "publishedAt": "2022-03-08",
+        "content": "(CNN)Antiviral medication orders for the White House's Covid-19 test-to-treat program are underway. More than 1,000 in-pharmacy clinics across the United States registered Monday to participate in th… [+4744 chars]"
+    }, {
+        "source": {
+            "id": "engadget",
+            "name": "Engadget"
+        },
+        "author": "Steve Dent",
+        "title": "US Surgeon General orders tech companies to reveal sources of COVID-19 misinformation",
+        "description": "President Biden's surgeon general Dr. Vivek Murthy has formally called on tech companies to provide information on sources and the scale of COVID-19 misinformation, The Washington Post has reported. \"This is about protecting the nation’s health,\" he told The …",
+        "url": "https://www.engadget.com/us-surgeon-general-orders-tech-companies-to-reveal-sources-of-covid-19-misinformation-050540191.html",
+        "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2021-08/a6250ad0-004d-11ec-bf21-a29998f28b50",
+        "publishedAt": "2022-03-04",
+        "content": "President Biden's surgeon general Dr. Vivek Murthy has formally called on tech companies to provide information on sources and the scale of COVID-19 misinformation, The Washington Post has reported. … [+1728 chars]"
+    }, {
+        "source": {
+            "id": "the-verge",
+            "name": "The Verge"
+        },
+        "author": "Nicole Wetsman",
+        "title": "The CDC is still trying to fix its data problem",
+        "description": "The CDC’s Data Modernization Initiative will try to connect state and local data systems to the federal level, Politico reported. The US has struggled for two years with data issues around COVID-19.",
+        "url": "https://www.theverge.com/2022/3/22/22990852/cdc-public-health-data-covid",
+        "urlToImage": "https://cdn.vox-cdn.com/thumbor/yaQkdiaorKy6OyPVWffzpYACar4=/0x287:4000x2381/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/23336796/1237552630.jpg",
+        "publishedAt": "2022-03-22",
+        "content": "Politico reports that the agency director wants to remedy gaps in public health data\r\nTwo years into the COVID-19 pandemic, the Centers for Disease Control and Prevention is still trying to improve t… [+1470 chars]"
+    }, {
+        "source": {
+            "id": "bbc-news",
+            "name": "BBC News"
+        },
+        "author": "https://www.facebook.com/bbcnews",
+        "title": "China announces Shanghai Covid lockdown",
+        "description": "The financial hub will be locked down in two phases, in China's biggest city-wide lockdown yet.",
+        "url": "https://www.bbc.co.uk/news/world-asia-china-60893070",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1FEA/production/_123907180_hi074857406.jpg",
+        "publishedAt": "2022-03-27",
+        "content": "Image caption, Tests take place behind the barriers of a makeshift Covid centre in Shanghai earlier this week\r\nChina has announced its biggest city-wide lockdown since the Covid outbreak began more t… [+2599 chars]"
+    }, {
+        "source": {
+            "id": null,
+            "name": "New York Times"
+        },
+        "author": "The Editorial Board",
+        "title": "Why New York Needs a Covid Memorial",
+        "description": "New York needs a way to come together.",
+        "url": "https://www.nytimes.com/2022/03/10/opinion/covid-new-york.html",
+        "urlToImage": "https://static01.nyt.com/images/2022/03/10/opinion/10memorial-web/10memorial-web-facebookJumbo.jpg",
+        "publishedAt": "2022-03-11",
+        "content": "Building a Covid memorial in New York could take many years and will raise a flurry of complex questions about what it should look like, where it should be built, and whose story it will tell. With o… [+2441 chars]"
+    }, {
+        "source": {
+            "id": null,
+            "name": "Gizmodo.com"
+        },
+        "author": "Ed Cara",
+        "title": "Mild Covid-19 Linked to Increased Inflammation in Cells Months Later, Study Finds",
+        "description": "In new research out Monday, scientists say they’ve found evidence that our immune system appears more prone to inflammation and other metabolic changes in the aftermath of even a mild case of covid-19. More research will be needed to understand how these chan…",
+        "url": "https://gizmodo.com/mild-covid-19-linked-to-increased-inflammation-in-cells-1848651100",
+        "urlToImage": "https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/a623b5b319322a198933490dd0614b0c.jpg",
+        "publishedAt": "2022-03-15",
+        "content": "In new research out Monday, scientists say theyve found evidence that our immune system appears more prone to inflammation and other metabolic changes in the aftermath of even a mild case of covid-19… [+4059 chars]"
+    }, {
+        "source": {
+            "id": null,
+            "name": "New York Times"
+        },
+        "author": "Steven Kurutz",
+        "title": "It’s Easier to Find Covid Tests — for Now",
+        "description": "Once hard to find, at-home test kits are easily available, and you may have more than you need — for now.",
+        "url": "https://www.nytimes.com/2022/03/19/style/covid-test-kits.html",
+        "urlToImage": "https://static01.nyt.com/images/2022/03/20/fashion/20COVIDTESTS1/20COVIDTESTS1-facebookJumbo.jpg",
+        "publishedAt": "2022-03-19",
+        "content": "What if you dont use them? It was a good reminder to line the boxes up in order of expiration, said Ms. Carr, who added that at-home testing has become a natural part of planning for our family, and … [+1353 chars]"
+    }, {
+        "source": {
+            "id": null,
+            "name": "New York Times"
+        },
+        "author": "Emily Cochrane",
+        "title": "Democrats Strip Covid Aid From $1.5 Trillion Spending Package",
+        "description": "Facing disputes over how to cover the cost of the pandemic response effort, Democrats dropped it rather than jeopardize legislation that includes aid for Ukraine and other top priorities.",
+        "url": "https://www.nytimes.com/2022/03/09/us/politics/house-spending-bill.html",
+        "urlToImage": "https://static01.nyt.com/images/2022/03/09/us/politics/09dc-spending-1/09dc-spending-1-facebookJumbo.jpg",
+        "publishedAt": "2022-03-10",
+        "content": "A Times investigation found that the stockpile, an emergency medical reserve intended to guard against infectious disease and bioterrorism threats, was woefully unprepared for the pandemic, in part b… [+1923 chars]"
+    }, {
+        "source": {
+            "id": "bbc-news",
+            "name": "BBC News"
+        },
+        "author": "https://www.facebook.com/bbcnews",
+        "title": "Gretchen Whitmer: Trial due to begin in US governor kidnapping plot",
+        "description": "The four are accused of trying to kidnap Democrat Gretchen Whitmer due to her Covid rules.",
+        "url": "https://www.bbc.co.uk/news/world-us-canada-60656553",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/14350/production/_123586728_gettyimages-1229281357.jpg",
+        "publishedAt": "2022-03-08",
+        "content": "Image source, Getty Images\r\nImage caption, Michigan Governor Gretchen Whitmer\r\nThe trial of four men accused of a plot to kidnap Michigan's Democratic governor is due to begin with jury selection on … [+2102 chars]"
+    }, {
+        "source": {
+            "id": "wired",
+            "name": "Wired"
+        },
+        "author": "Grace Browne",
+        "title": "Iceland Bets on Herd Immunity",
+        "description": "The island nation's government joins several other European countries in dropping Covid restrictions—but not everyone is sure the timing’s right.",
+        "url": "https://www.wired.com/story/iceland-bets-on-herd-immunity/",
+        "urlToImage": "https://media.wired.com/photos/622100f4a2d7a96998eb6b13/191:100/w_1280,c_limit/Science_iceland_herd_immunity_GettyImages-1227732179.jpg",
+        "publishedAt": "2022-03-03",
+        "content": "Last Friday, Iceland lifted all restrictions against Covidno quarantining for the infected, no testing at the border, and no size limits on gatherings. The same day, the country broke its record for … [+3260 chars]"
+    }, {
+        "source": {
+            "id": null,
+            "name": "New York Times"
+        },
+        "author": "Roberta Smith",
+        "title": "Review: Tabboo! Paints a Valentine to New York City",
+        "description": "A show in two downtown galleries surveys the Covid cityscapes of this multitalented artist, who has become one of the town’s best painters.",
+        "url": "https://www.nytimes.com/2022/03/10/arts/design/tabboo-cityscapes-review.html",
+        "urlToImage": "https://static01.nyt.com/images/2022/03/11/arts/10tabboo-review-1/10tabboo-review-1-facebookJumbo.jpg",
+        "publishedAt": "2022-03-10",
+        "content": "Tabboo! has always painted what is within reach, including himself and his friends, in and out of drag, still lifes of the flowers, plants and tchotchkes that enliven his apartment on Avenue C and fi… [+732 chars]"
+    }, {
+        "source": {
+            "id": null,
+            "name": "New York Times"
+        },
+        "author": "The New York Times",
+        "title": "U.S. Vaccination Rates Stall as Potential Uptick Looms",
+        "description": "The U.S. booster campaign has slowed, with about half of eligible adults still not boosted as of Monday, according to the C.D.C. Here’s the latest on Covid.",
+        "url": "https://www.nytimes.com/live/2022/03/22/world/covid-19-mandates-cases-vaccine",
+        "urlToImage": "https://static01.nyt.com/images/2022/03/21/world/21virus-brief-BA2-booster/21virus-brief-BA2-booster-facebookJumbo-v2.jpg",
+        "publishedAt": "2022-03-22",
+        "content": "A Maryland resident ready to receive a Covid-19 booster shot in Hagerstown, Md., last month.Credit...Kenny Holston for The New York Times\r\nWhen the Covid vaccine first became widely available a year … [+3034 chars]"
+    }, {
+        "source": {
+            "id": null,
+            "name": "New York Times"
+        },
+        "author": "Kalyn Belsha, Melanie Asmar and Lori Higgins",
+        "title": "School Mask Mandates Have Lifted, but Covid Isn’t Over for Students and Teachers",
+        "description": "Teachers are still grappling daily with issues that Covid has left in its wake, most of which defy easy solutions.",
+        "url": "https://www.nytimes.com/2022/03/19/sunday-review/pandemic-school-education.html",
+        "urlToImage": "https://static01.nyt.com/images/2022/03/19/opinion/19belshaasmarhig1/19belshaasmarhig1-facebookJumbo.jpg",
+        "publishedAt": "2022-03-19",
+        "content": "I figure, you wouldnt ask for a hug or a high five if you really didnt need it, she said.\r\nAnd for Ms. Barros in Tulsa, the work looks like this: grading assignments on Sundays, spending her planning… [+1943 chars]"
+    }, {
+        "source": {
+            "id": "cnn",
+            "name": "CNN"
+        },
+        "author": "Brenda Goodman",
+        "title": "Omicron subvariant BA.2 is now dominant strain of Covid-19 in US, CDC says",
+        "description": "The highly contagious Omicron subvariant BA.2 is now the dominant strain of Covid-19 in the United States, causing an estimated 54.9% of all new Covid-19 infections last week, according to new data from the US Centers for Disease Control and Prevention.",
+        "url": "https://www.cnn.com/2022/03/29/health/ba-2-dominant-us/index.html",
+        "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/220216133124-home-covid-tests-mail.jpg?c=16x9&q=w_800,c_fill",
+        "publishedAt": "2022-03-29",
+        "content": "The highly contagious Omicron subvariant BA.2 is now the dominant strain of Covid-19 in the United States, causing an estimated 54.9% of all new Covid-19 infections last week, according to new data f… [+352 chars]"
+    }]
+}
