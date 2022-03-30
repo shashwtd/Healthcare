@@ -83,16 +83,26 @@ body {
     padding-top: 15px;
 }
 
-.article h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.article h1 {
     color: var(--article-h);
     font-family: 'Montserrat', sans-serif;
     margin-top: 40px;
     /* font-weight: 400; */
+}
+
+.article h2 {
+    color: #9fb89f;
+    font-family: 'Play', sans-serif;
+    margin-top: 30px;
+}
+
+.article h2 + p {
+    color: #8f8f8f;
+    margin-top: 20px;
+    font-family: 'Play', sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+    line-height: 1.4em;
 }
 
 .article p {

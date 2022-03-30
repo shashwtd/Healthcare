@@ -119,6 +119,10 @@ function init() {
 
 }
 
+function truncate(str, n){
+    return (str.length > n) ? str.substr(0, n-1) + '\u2026' : str;
+  };
+
 // Defining the gameLoop
 function gameLoop(timeStamp) {
     secondsPassed = (timeStamp - oldTimeStamp) / 1000;
@@ -228,6 +232,15 @@ function draw(first) {
     }
 }
 
+function get_article(arr, ex) {
+    let a = arr[Math.floor(Math.random() * arr.length)];
+    if (arr.indexOf(a) == ex){
+        return get_article(arr, ex);
+    } else {
+        return [a, arr.indexOf(a)];
+    }
+}
+
 function generate_news() {
     getJSON('./res/scripts/data.json',
         function (err, data) {
@@ -236,16 +249,20 @@ function generate_news() {
             } else {
                 console.log("Fetched news articles successfully!");
                 let articles = data.articles;
-                let main = document.querySelector('#quiz');
-                console.log("Fetched news articles successfully!");
+                let dum = [];
+                let main = document.querySelector('#news');
 
                 for (let index = 0; index < 10; index++) {
-                    let article = articles[Math.floor(Math.random() * 39)];
-                    console.log(article);
-                    let url = article.url;
+                    let query = get_article(articles);
+                    let article = query[0];
+                    if(dum.includes(article.url)){
+                        article = generate_article(article, query[1]);
+                    }
+
+                    let url = truncate(article.url, 95);
                     let title = article.title;
                     let description = article.description;
-                    let time = article.publishedAt;
+                    let time = article.publishedAt + " - ";
 
                     let news = document.createElement('div');
                     news.className = 'news';
