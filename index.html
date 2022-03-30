@@ -16,23 +16,30 @@
 
     <!-- Resource import (styling, scripts, etc.) -->
     <link rel="stylesheet" href="res/styles/index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Play:wght@400;700&display=swap"
+        rel="stylesheet">
 
 </head>
 
 <body>
+    <div class="move-top-container">
+        <div id="move-top"></div>
+    </div>
     <!-- Content Code -->
     <div id="cont-main">
-        <canvas id="bg-canvas" dot="#bbbbbb88" line="#cfd1d444" base="#323437"></canvas>
+        <div class="tll-container">
+            <div id="tl-label">
+                <div class="tll-title">This is a Title!</div>
+                <div class="tll-des">This is a description for the title wow!</div>
+            </div>
+        </div>
+        <canvas id="bg-canvas" class="bg-canvas" dot="#bbbbbb88" line="#cfd1d444" base="#323437"></canvas>
         <div class="hexa-line">
             <div class="hexagon-container">
                 <div class="hex-row">
                     <div class="hexagon">
-                        <div class="hexxagon">
-                            <div class="hex-tooltip">
-                                <div class="htt-title">What is healthcare?</div>
-                                <div class="htt-description">Read this article which describes healthcare in depth.</div>
-                            </div>
+                        <a class="hexxagon" title="What is healthcare?" href="#healthcare"
+                            description="Read this article which describes healthcare in depth">
                             <div class="hex-icon">
                                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -59,16 +66,55 @@
                                     <g></g>
                                 </svg>
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
                 <div class="hex-row">
                     <div class="hexagon">
-                        <div class="hexxagon">
-                            <div class="hex-tooltip">
-                                <div class="htt-title">COVID-19</div>
-                                <div class="htt-description">Learn more about the ongoing COVID-19 pandemic.</div>
+                        <a class="hexxagon" title="Good Habits!" href="#good-habits"
+                            description="Learn about some good habits for good healthcare.">
+                            <div class="hex-icon">
+                                <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21 6.25C21 4.45507 19.5449 3 17.75 3H6.25C4.45507 3 3 4.45507 3 6.25V17.75C3 19.5449 4.45507 21 6.25 21L12.0226 21.0012C11.7257 20.5378 11.4861 20.0342 11.3136 19.5004L6.25 19.5C5.2835 19.5 4.5 18.7165 4.5 17.75V8.5H19.5L19.5004 11.3136C20.0342 11.4861 20.5378 11.7257 21.0012 12.0226L21 6.25ZM6.25 4.5H17.75C18.7165 4.5 19.5 5.2835 19.5 6.25V7H4.5V6.25C4.5 5.2835 5.2835 4.5 6.25 4.5Z"
+                                        fill="#919499" />
+                                    <path
+                                        d="M23 17.5C23 20.5376 20.5376 23 17.5 23C14.4624 23 12 20.5376 12 17.5C12 14.4624 14.4624 12 17.5 12C20.5376 12 23 14.4624 23 17.5ZM19.8536 15.6464C19.6583 15.4512 19.3417 15.4512 19.1464 15.6464L16.5 18.2929L15.6036 17.3964C15.4083 17.2012 15.0917 17.2012 14.8964 17.3964C14.7012 17.5917 14.7012 17.9083 14.8964 18.1036L16.1464 19.3536C16.3417 19.5488 16.6583 19.5488 16.8536 19.3536L19.8536 16.3536C20.0488 16.1583 20.0488 15.8417 19.8536 15.6464Z"
+                                        fill="#919499" />
+                                </svg>
                             </div>
+                        </a>
+                    </div>
+                    <div class="hexagon">
+                        <a class="hexxagon" title="Online Checkup" description='Check the disease by given symptoms!'
+                            href="#checkup">
+                            <div class="hex-icon">
+                                <svg width="96px" height="96px" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21,56V76.86A17.07,17.07,0,0,0,38,94h0A17.07,17.07,0,0,0,55,76.86V54"
+                                        style="fill:none;stroke:#919499;stroke-linecap:round;stroke-linejoin:round;stroke-width:4px" />
+                                    <circle cx="21" cy="48" r="8"
+                                        style="fill:none;stroke:#919499;stroke-linecap:round;stroke-linejoin:round;stroke-width:4px" />
+                                    <circle cx="21" cy="48" r="8"
+                                        style="fill:none;stroke:#919499;stroke-linecap:round;stroke-linejoin:round;stroke-width:4px" />
+                                    <polygon points="71.5 6 76.5 4 71.5 2 71.5 6"
+                                        style="fill:none;stroke:#919499;stroke-linecap:round;stroke-linejoin:round;stroke-width:4px" />
+                                    <path
+                                        d="M36,4H31.91C29,4,26.67,7,27,10.35,29.25,30.54,38.69,54,55,54S80.75,30.54,83,10.35C83.33,7,81,4,78.09,4H74"
+                                        style="fill:none;stroke:#919499;stroke-linecap:round;stroke-linejoin:round;stroke-width:4px" />
+                                    <polygon points="38.5 6 33.5 4 38.5 2 38.5 6"
+                                        style="fill:none;stroke:#919499;stroke-linecap:round;stroke-linejoin:round;stroke-width:4px" />
+                                    <circle cx="21" cy="48" r="2"
+                                        style="fill:none;stroke:#919499;stroke-linecap:round;stroke-linejoin:round;stroke-width:4px" />
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="hex-row">
+                    <div class="hexagon">
+                        <a class="hexxagon" title="COVID-19" href="#corona"
+                            description="Learn more about the ongoing COVID-19 pandemic.">
                             <div class="hex-icon">
                                 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60 60"
@@ -92,94 +138,29 @@
                                     <g></g>
                                 </svg>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="hexagon">
-                        <div class="hexxagon">
-                            <div class="hex-tooltip">
-                                <div class="htt-title">Healthcare Quiz!</div>
-                                <div class="htt-description">Take a quiz on your knowledge on healthcare.</div>
-                            </div>
+                        <a class="hexxagon" title="COVID-19 news!" href="#quiz"
+                            description="Get the latest news on coronavirus to stay updated and safe!">
                             <div class="hex-icon">
-                                <svg width="48px" height="48px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill="#919499"
-                                        d="M11.25 6C8.3505 6 6 8.35051 6 11.25V36.75C6 39.6495 8.35051 42 11.25 42H24.5187C24.0191 41.2196 23.6006 40.3823 23.275 39.5H11.25C9.73122 39.5 8.5 38.2688 8.5 36.75V11.25C8.5 9.73122 9.73122 8.5 11.25 8.5H36.75C38.2688 8.5 39.5 9.73122 39.5 11.25V22.6351C40.3781 22.9207 41.2151 23.2972 42 23.7536V11.25C42 8.3505 39.6495 6 36.75 6H11.25Z"
-                                        fill="#212121" />
-                                    <path fill="#919499"
-                                        d="M24.5215 27.9956C24.0215 28.7759 23.6026 29.6132 23.2766 30.4956H11.25C10.5596 30.4956 10 29.936 10 29.2456C10 28.5553 10.5596 27.9956 11.25 27.9956H24.5215Z"
-                                        fill="#212121" />
-                                    <path fill="#919499"
-                                        d="M32.9976 11.2481C32.9976 10.5578 32.4379 9.99811 31.7476 9.99811C31.0572 9.99811 30.4976 10.5578 30.4976 11.2481V14H27.75C27.0596 14 26.5 14.5596 26.5 15.25C26.5 15.9404 27.0596 16.5 27.75 16.5H30.4976V19.2483C30.4976 19.9386 31.0572 20.4983 31.7476 20.4983C32.4379 20.4983 32.9976 19.9386 32.9976 19.2483V16.5H35.7501C36.4405 16.5 37.0001 15.9404 37.0001 15.25C37.0001 14.5596 36.4405 14 35.7501 14H32.9976V11.2481Z"
-                                        fill="#212121" />
-                                    <path fill="#919499"
-                                        d="M20.6533 10.7712C20.4601 10.3034 20.0039 9.99831 19.4977 9.99838C18.9916 9.99846 18.5355 10.3037 18.3424 10.7716L13.5945 22.2776C13.3311 22.9157 13.635 23.6465 14.2731 23.9099C14.9113 24.1732 15.6421 23.8694 15.9054 23.2312L16.6124 21.5181H22.3869L23.0946 23.2316C23.3581 23.8696 24.089 24.1733 24.7271 23.9097C25.3652 23.6462 25.6688 22.9153 25.4053 22.2772L20.6533 10.7712ZM21.3544 19.0181H17.644L19.4984 14.5242L21.3544 19.0181Z"
-                                        fill="#212121" />
-                                    <path fill="#919499"
-                                        d="M10 35.25C10 34.5596 10.5596 34 11.25 34H19.2581C19.9484 34 20.5081 34.5596 20.5081 35.25C20.5081 35.9404 19.9484 36.5 19.2581 36.5H11.25C10.5596 36.5 10 35.9404 10 35.25Z"
-                                        fill="#212121" />
-                                    <path fill="#919499"
-                                        d="M46.4751 35C46.4751 41.0751 41.5502 46 35.4751 46C29.4 46 24.4751 41.0751 24.4751 35C24.4751 28.9249 29.4 24 35.4751 24C41.5502 24 46.4751 28.9249 46.4751 35ZM36.4751 28C36.4751 27.4477 36.0274 27 35.4751 27C34.9228 27 34.4751 27.4477 34.4751 28V34H28.4751C27.9228 34 27.4751 34.4477 27.4751 35C27.4751 35.5523 27.9228 36 28.4751 36H34.4751V42C34.4751 42.5523 34.9228 43 35.4751 43C36.0274 43 36.4751 42.5523 36.4751 42V36H42.4751C43.0274 36 43.4751 35.5523 43.4751 35C43.4751 34.4477 43.0274 34 42.4751 34H36.4751V28Z"
-                                        fill="#212121" />
-                                </svg>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="hex-row">
-                    <div class="hexagon">
-                        <div class="hexxagon">
-                            <div class="hex-tooltip">
-                                <div class="htt-title">Good Practices!</div>
-                                <div class="htt-description">Learn about some good habits for good healthcare.</div>
-                            </div>
-                            <div class="hex-icon">
-                                <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M21 6.25C21 4.45507 19.5449 3 17.75 3H6.25C4.45507 3 3 4.45507 3 6.25V17.75C3 19.5449 4.45507 21 6.25 21L12.0226 21.0012C11.7257 20.5378 11.4861 20.0342 11.3136 19.5004L6.25 19.5C5.2835 19.5 4.5 18.7165 4.5 17.75V8.5H19.5L19.5004 11.3136C20.0342 11.4861 20.5378 11.7257 21.0012 12.0226L21 6.25ZM6.25 4.5H17.75C18.7165 4.5 19.5 5.2835 19.5 6.25V7H4.5V6.25C4.5 5.2835 5.2835 4.5 6.25 4.5Z"
-                                        fill="#919499" />
-                                    <path
-                                        d="M23 17.5C23 20.5376 20.5376 23 17.5 23C14.4624 23 12 20.5376 12 17.5C12 14.4624 14.4624 12 17.5 12C20.5376 12 23 14.4624 23 17.5ZM19.8536 15.6464C19.6583 15.4512 19.3417 15.4512 19.1464 15.6464L16.5 18.2929L15.6036 17.3964C15.4083 17.2012 15.0917 17.2012 14.8964 17.3964C14.7012 17.5917 14.7012 17.9083 14.8964 18.1036L16.1464 19.3536C16.3417 19.5488 16.6583 19.5488 16.8536 19.3536L19.8536 16.3536C20.0488 16.1583 20.0488 15.8417 19.8536 15.6464Z"
-                                        fill="#919499" />
-                                </svg>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="hexagon">
-                        <div class="hexxagon">
-                            <div class="hex-tooltip">
-                                <div class="htt-title">Online checkup</div>
-                                <div class="htt-description">Take a quick and easy health check!</div>
-                            </div>
-                            <div class="hex-icon">
-                                <svg width="96px" height="96px" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M21,56V76.86A17.07,17.07,0,0,0,38,94h0A17.07,17.07,0,0,0,55,76.86V54"
-                                        style="fill:none;stroke:#919499;stroke-linecap:round;stroke-linejoin:round;stroke-width:4px" />
-                                    <circle cx="21" cy="48" r="8"
-                                        style="fill:none;stroke:#919499;stroke-linecap:round;stroke-linejoin:round;stroke-width:4px" />
-                                    <circle cx="21" cy="48" r="8"
-                                        style="fill:none;stroke:#919499;stroke-linecap:round;stroke-linejoin:round;stroke-width:4px" />
-                                    <polygon points="71.5 6 76.5 4 71.5 2 71.5 6"
-                                        style="fill:none;stroke:#919499;stroke-linecap:round;stroke-linejoin:round;stroke-width:4px" />
-                                    <path
-                                        d="M36,4H31.91C29,4,26.67,7,27,10.35,29.25,30.54,38.69,54,55,54S80.75,30.54,83,10.35C83.33,7,81,4,78.09,4H74"
-                                        style="fill:none;stroke:#919499;stroke-linecap:round;stroke-linejoin:round;stroke-width:4px" />
-                                    <polygon points="38.5 6 33.5 4 38.5 2 38.5 6"
-                                        style="fill:none;stroke:#919499;stroke-linecap:round;stroke-linejoin:round;stroke-width:4px" />
-                                    <circle cx="21" cy="48" r="2"
-                                        style="fill:none;stroke:#919499;stroke-linecap:round;stroke-linejoin:round;stroke-width:4px" />
+                                <svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1"
+                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="🔍-Product-Icons" stroke="none" stroke-width="1" fill="none"
+                                        fill-rule="evenodd">
+                                        <g id="ic_fluent_news_28_regular" fill="#919499" fill-rule="nonzero">
+                                            <path
+                                                d="M22.75,24 L5.25,24 C3.51696854,24 2.10075407,22.6435452 2.00514479,20.9344239 L2,20.75 L2,6.25 C2,5.05913601 2.92516159,4.08435508 4.09595119,4.00519081 L4.25,4 L19.75,4 C20.940864,4 21.9156449,4.92516159 21.9948092,6.09595119 L22,6.25 L22,7 L23.75,7 C24.940864,7 25.9156449,7.92516159 25.9948092,9.09595119 L26,9.25 L26,20.75 C26,22.4830315 24.6435452,23.8992459 22.9344239,23.9948552 L22.75,24 L5.25,24 L22.75,24 Z M5.25,22.5 L22.75,22.5 C23.6681734,22.5 24.4211923,21.7928897 24.4941988,20.8935272 L24.5,20.75 L24.5,9.25 C24.5,8.87030423 24.2178461,8.55650904 23.8517706,8.50684662 L23.75,8.5 L22,8.5 L22,19.25 C22,19.6296958 21.7178461,19.943491 21.3517706,19.9931534 L21.25,20 C20.8703042,20 20.556509,19.7178461 20.5068466,19.3517706 L20.5,19.25 L20.5,6.25 C20.5,5.87030423 20.2178461,5.55650904 19.8517706,5.50684662 L19.75,5.5 L4.25,5.5 C3.87030423,5.5 3.55650904,5.78215388 3.50684662,6.14822944 L3.5,6.25 L3.5,20.75 C3.5,21.6681734 4.20711027,22.4211923 5.10647279,22.4941988 L5.25,22.5 L22.75,22.5 L5.25,22.5 Z M10.2465274,13.0034726 C10.9368834,13.0034726 11.4965274,13.5631166 11.4965274,14.2534726 L11.4965274,17.75 C11.4965274,18.4403559 10.9368834,19 10.2465274,19 L6.75,19 C6.05964406,19 5.5,18.4403559 5.5,17.75 L5.5,14.2534726 C5.5,13.5631166 6.05964406,13.0034726 6.75,13.0034726 L10.2465274,13.0034726 Z M14.25,17.5 L17.7461806,17.5 C18.1603942,17.5 18.4961806,17.8357864 18.4961806,18.25 C18.4961806,18.6296958 18.2140267,18.943491 17.8479512,18.9931534 L17.7461806,19 L14.25,19 C13.8357864,19 13.5,18.6642136 13.5,18.25 C13.5,17.8703042 13.7821539,17.556509 14.1482294,17.5068466 L14.25,17.5 L17.7461806,17.5 L14.25,17.5 Z M9.99652744,14.5034726 L7,14.5034726 L7,17.5 L9.99652744,17.5 L9.99652744,14.5034726 Z M14.25,13.0034726 L17.7461806,13.0034726 C18.1603942,13.0034726 18.4961806,13.339259 18.4961806,13.7534726 C18.4961806,14.1331683 18.2140267,14.4469635 17.8479512,14.4966259 L17.7461806,14.5034726 L14.25,14.5034726 C13.8357864,14.5034726 13.5,14.1676861 13.5,13.7534726 C13.5,13.3737768 13.7821539,13.0599816 14.1482294,13.0103192 L14.25,13.0034726 L17.7461806,13.0034726 L14.25,13.0034726 Z M6.24639584,8.49665793 L17.7461806,8.49665793 C18.1603942,8.49665793 18.4961806,8.83244437 18.4961806,9.24665793 C18.4961806,9.6263537 18.2140267,9.94014889 17.8479512,9.98981132 L17.7461806,9.99665793 L6.24639584,9.99665793 C5.83218228,9.99665793 5.49639584,9.66087149 5.49639584,9.24665793 C5.49639584,8.86696217 5.77854972,8.55316697 6.14462528,8.50350455 L6.24639584,8.49665793 L17.7461806,8.49665793 L6.24639584,8.49665793 Z"
+                                                id="🎨-Color"></path>
+                                        </g>
+                                    </g>
                                 </svg>
                             </div>
-                        </div>
+                        </a>
                     </div>
                     <div class="hexagon">
-                        <div class="hexxagon">
-                            <div class="hex-tooltip">
-                                <div class="htt-title">COVID-19 stats!</div>
-                                <div class="htt-description">Get proper and illustrated Covid-19 statistics.</div>
-                            </div>
+                        <a class="hexxagon" title="COVID-19 stats!" href="#covid-stats"
+                            description='Get proper and illustrated Covid-19 statistics.'>
                             <div class="hex-icon">
                                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
                                     xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 512 512">
@@ -200,7 +181,7 @@
                                 </svg>
 
                             </div>
-                        </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -209,7 +190,115 @@
             </div>
         </div>
         <div id="main">
+            <div class="article" id="healthcare">
+                <h1>What is Healthcare?</h1>
+                <p>
+                    Healthcare is maintenance or improvement of your health by prevention or cure of any physical and
+                    mental impairments in people.
+                </p>
+                <p>
+                    Access to health care may vary across countries, influenced by social and economic conditions as
+                    well
+                    as health policies. Providing health care services means "the timely use of personal health services
+                    to achieve the best possible health outcomes". Factors to consider in terms of health care access
+                    include financial limitations (such as insurance coverage), geographic barriers (such as additional
+                    transportation costs, the possibility to take paid time off of work to use such services), and
+                    personal limitations (lack of ability to communicate with health care providers, poor health
+                    literacy, low income). Limitations to health care services affects negatively the use of medical
+                    services, the efficacy of treatments, and overall outcome (well-being, mortality rates).
+                </p>
+                <img src="res/images/healthcare.jpg" alt="healthcare" style="margin-top: 20px;">
+                <p>
+                    Health care systems are organizations established to meet the health needs of targeted populations.
+                    According to the World Health Organization (WHO), a well-functioning health care system requires a
+                    financing mechanism, a well-trained and adequately paid workforce, reliable information on which to
+                    base decisions and policies, and well-maintained health facilities to deliver quality medicines and
+                    technologies. An efficient health care system can contribute to a significant part of a country's
+                    economy, development, and industrialization. Health care is conventionally regarded as an important
+                    determinant in promoting the general physical and mental health and well-being of people around the
+                    world. An example of this was the worldwide eradication of smallpox in 1980, declared by the WHO as
+                    the first disease in human history to be eliminated by deliberate health care interventions.
+                </p>
+                <p>
+                    The delivery of modern health care depends on groups of trained professionals and paraprofessionals
+                    coming together as interdisciplinary teams. This includes professionals in medicine, psychology,
+                    physiotherapy, nursing, dentistry, midwifery and allied health, along with many others such as
+                    public health practitioner, community health workers and assistive personnel, who systematically
+                    provide personal and population-based preventive, curative and rehabilitative care services.
+                </p>
+                <p>
+                    While the definitions of the various types of health care vary depending on the different cultural,
+                    political, organizational, and disciplinary perspectives, there appears to be some consensus that
+                    primary care constitutes the first element of a continuing health care process and may also include
+                    the provision of secondary and tertiary levels of care. Health care can be defined as either public
+                    or private.
+                </p>
+                <h1>
+                    Health system
+                </h1>
+                <p>
+                    A health system, also sometimes referred to as health care system or healthcare system, is the
+                    organization of people, institutions, and resources that deliver health care services to populations
+                    in need.
+                </p>
+                <h1>
+                    Healthcare industry
+                </h1>
+                <p>
+                    The healthcare industry incorporates several sectors that are dedicated to providing health care
+                    services and products. As a basic framework for defining the sector, the United Nations'
+                    International Standard Industrial Classification categorizes health care as generally consisting of
+                    hospital activities, medical and dental practice activities, and "other human health activities."
+                    The last class involves activities of, or under the supervision of, nurses, midwives,
+                    physiotherapists, scientific or diagnostic laboratories, pathology clinics, residential health
+                    facilities, patient advocates or other allied health professions.
+                </p>
+            </div>
+            <div class="article" id="corona">
+                <img src="res/images/corona.png" alt="coronavirus image">
+                <h1>The worst pandemic!</h1>
+                <p>
+                    Coronavirus disease 2019 (COVID-19) is a contagious disease caused by severe acute respiratory
+                    syndrome coronavirus 2 (SARS-CoV-2). The first known case was identified in Wuhan, China, in
+                    December 2019. The disease has since spread worldwide, leading to an ongoing pandemic.
+                </p>
+                <p>
+                    Symptoms of COVID‑19 are variable, but often include fever, cough, headache, fatigue, breathing
+                    difficulties, loss of smell, and loss of taste. Symptoms may begin one to fourteen days after
+                    exposure to the virus. At least a third of people who are infected do not develop noticeable
+                    symptoms. Of those people who develop symptoms noticeable enough to be classed as patients, most
+                    (81%) develop mild to moderate symptoms (up to mild pneumonia), while 14% develop severe symptoms,
+                    and 5% suffer critical symptoms (respiratory failure, shock, or multiorgan dysfunction). Older
+                    people are at a higher risk of developing severe symptoms. Some people continue to experience a
+                    range of effects (long COVID) for months after recovery, and damage to organs has been observed.
+                    Multi-year studies are underway to further investigate the long-term effects of the disease.
+                </p>
+                <p>
+                    COVID‑19 transmits when people breathe in air contaminated by droplets and small airborne particles
+                    containing the virus. The risk of breathing these in is highest when people are in close proximity,
+                    but they can be inhaled over longer distances, particularly indoors. Transmission can also occur if
+                    splashed or sprayed with contaminated fluids in the eyes, nose or mouth, and, rarely, via
+                    contaminated surfaces. People remain contagious for up to 20 days, and can spread the virus even if
+                    they do not develop symptoms.
+                </p>
+                <p>Several testing methods have been developed to diagnose the disease. The standard diagnostic method
+                    is by detection of the virus's nucleic acid by real-time reverse transcription polymerase chain
+                    reaction (rRT-PCR), transcription-mediated amplification (TMA), or by reverse transcription
+                    loop-mediated isothermal amplification (RT-LAMP) from a nasopharyngeal swab.
 
+                </p>
+                <p>Several COVID-19 vaccines have been approved and distributed in various countries, which have
+                    initiated mass vaccination campaigns. Other preventive measures include physical or social
+                    distancing, quarantining, ventilation of indoor spaces, covering coughs and sneezes, hand washing,
+                    and keeping unwashed hands away from the face. The use of face masks or coverings has been
+                    recommended in public settings to minimize the risk of transmission. While work is underway to
+                    develop drugs that inhibit the virus, the primary treatment is symptomatic. Management involves the
+                    treatment of symptoms, supportive care, isolation, and experimental measures.</p>
+            </div>
+            <div class="article" id="quiz">
+                <h2 style="margin-top:0;">Healthcare Quiz!</h2>
+                <p>Take a quick quiz to learn about different aspects of healthcare.</p>
+            </div>
         </div>
     </div>
 

@@ -16,8 +16,61 @@ let oldTimeStamp = 0;
 let timePassed = 0;
 let first_play = true;
 let society = {};
+let btt_btn = document.querySelector('#move-top');
+let tt_main = document.querySelector("#tl-label");
+let tt_title = document.querySelector('#tl-label .tll-title');
+let tt_description = document.querySelector('#tl-label .tll-des');
+
 
 window.onload = init;
+btt_btn.addEventListener('click', topFunction);
+window.onscroll = function () {
+    scrollFunction()
+};
+let hexagons = document.getElementsByClassName("hexxagon");
+for (let index = 0; index < hexagons.length; index++) {
+    const hex = hexagons[index];
+    hex.addEventListener("mouseover", function () {
+        let title = hex.getAttribute("title");
+        let description = hex.getAttribute("description");
+
+        set_tt(title, description);
+    });
+    hex.addEventListener("mouseout", function () {
+        abandon_tt();
+    })
+}
+
+function scrollFunction() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        btt_btn.style.left = "0%";
+    } else {
+        btt_btn.style.left = "-100%";
+    }
+}
+
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+
+function set_tt(title, description) {
+    tt_title.classList.remove('fade-anim');
+    tt_description.classList.remove('fade-anim');
+
+    tt_title.classList.add('fade-anim');
+    tt_description.classList.add('fade-anim');
+
+    tt_title.innerText = title;
+    tt_description.innerText = description;
+    tt_main.style.left = '0px';
+}
+
+function abandon_tt() {
+    tt_title.classList.remove('fade-anim');
+    tt_description.classList.remove('fade-anim');
+    tt_main.style.left = "-100%";
+}
 
 
 // Initializing the canvas
